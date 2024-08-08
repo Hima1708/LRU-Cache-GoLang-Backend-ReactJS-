@@ -1,10 +1,11 @@
-## LRU-Cache-App
+# LRU-Cache-App
+##LRU-Cache Backend
 This Go application provides an LRU (Least Recently Used) cache backend. It includes features for managing cache entries and real-time updates via WebSocket.
 
-# Key Features
+## Key Features
 LRU Cache: Automatically evicts the least recently used items when the cache is full.
 
-# API Endpoints:
+## API Endpoints:
 GET /cache/:key - Retrieve a cache entry by key.
 GET /cache - Get all cache entries.
 POST /cache - Add a new cache entry.
