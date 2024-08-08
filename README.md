@@ -38,3 +38,17 @@ This project provides a React-based frontend for interacting with a cache manage
 ### GetEntryModal.js:
 - Modal for retrieving a specific cache entry by key.
 - Users can enter a key to fetch the associated cache value.
+
+## App Setup Details
+- Clone the github repo
+### Backend Setup:
+- Install Go
+- Run cmd to install all dependencies: go mod tidy
+- Run the code using cmd: go run main.go
+- The Backend server will be running at port 8080 by default
+### Frontend Setup
+- Install node.js
+- Move to my-lru-cache-app
+- Run cmd to install all dependencies: npm install
+- Run cmd to start the react-app: npm start
+- The app will be running on port 3000 by default
