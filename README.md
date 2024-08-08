@@ -1,4 +1,5 @@
 # LRU-Cache-App
+![Project Screenshot](LRU-Cache-Demo.png)
 ## LRU-Cache Backend
 This Go application provides an LRU (Least Recently Used) cache backend. It includes features for managing cache entries and real-time updates via WebSocket.
 
